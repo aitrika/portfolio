@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #081b29;
+    color: #ededed;
+}
+h2{
+    font-size: 36px;
+}
+/*Step 1 designing the header logo on one side links on another padding n all*/
+.header{
+    position: fixed;
+    background-color: #081b29;
+    width:100%;
+    /* top and bottom padding are set to 20px and left n right set to 10% */
+    padding: 20px 10%;
+    
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/*Step 2 designing logo specifying font size,weight,color*/
+.logo{
+    font-size:25px;
+    color: #ededed;
+    font-weight: 600;
+    text-decoration: none; /*removes blue highlight due to hyperlink*/
+}
+
+/*Step 3 designing nav bar*/
+
+.navbar a{
+    font-size:18px;
+    color: #ededed;
+    font-weight: 550;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: .8s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #f852a0;
+}
+/*nav bar is done*/
+/* now designing home section */
+.home{
+    margin-top: 300px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+    line-height: 1.2;
+}
+
+/* positioning of home section is done  */
+/*now designing of individual components*/
+.home-content h1{
+    font-size: 56px;
+    font-weight:700;
+    line-height: 1.2;
+}
+
+.home-content h2{
+    font-size:36px;
+    font-weight: 700;
+    color:#f852a0;
+}
+
+.home-content h3{
+    font-size: 16px;
+    /* border: 2px solid #f852a0; */
+    margin: 20px 0 40px;
+}
+
+.btn-box{
+    /* background-color: lightgreen; */
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box a{
+   
+    width: 150px;
+    height: 100%;
+    font-size: 19px;
+    background-color: #f852a0;
+    border: 2px solid #f852a0;
+    border-radius: 8px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #f852a0
+}
+.resume-link:hover {
+    background-color: #d2458c;
+}
+
+.skills{
+    
+    height: 250px;
+    width:80%;
+    margin: 40px 0px;
+    margin-left: 150px;
+    /* border: 2px solid #f852a0; */
+}
+.skills button{
+    padding: 10px;
+    margin:10px;
+    background-color: transparent;
+    border: 0px;
+}
+.icons{
+    margin: 30px;
+    color:#f852a0;
+}
+img{
+    height:70px;
+}
+.projects{
+    
+    height: 200px;
+    width:80%;
+    margin: 40px 0px;
+    margin-left: 150px;
+    /* border: 2px solid #f852a0; */
+}
+
+.projects ul li{
+    color: #f852a0;
+    margin: 20px;
+    margin-left: 50px;
+}
+.projects ul li a{
+    color: #f852a0;
+    
+}
+.contact{
+    
+    height: 150px;
+    width:80%;
+    margin: 20px 0px;
+    margin-left: 150px;
+    /* border: 2px solid #f852a0; */
+}
+.btn{
+    padding: 0px;
+    margin-top:0px;
+    margin:1px;
+    background-color: transparent;
+    border:0px;
+    /* border: 2px solid white; */
+}
+.btn a i{
+    margin: 5px;
+    /* background-color: transparent;
+    border: 2px solid white; */
+}
+footer{
+    color: #f852a0;
+}
